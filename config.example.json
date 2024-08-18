@@ -1,0 +1,23 @@
+{
+  "mailer": {
+    "senderName": "Email Sender Name",
+    "senderEmail": "Sender Email"
+  },
+  "database": {
+    "dir": "data/database",
+    "name": "db.sqlite"
+  },
+  "mediaStorage": {
+    "storageDir": "data/media-storage",
+    "maxUploadFileSize": 8000000,
+    "allowedElementTypes": [
+      "jpeg",
+      "png",
+      "svg+xml",
+      "webp",
+      "pdf",
+      "mp4",
+      "avi"
+    ]
+  }
+}
